@@ -21,7 +21,7 @@ return
         'development' => [
             'adapter' => 'mysql',
             'host' => 'localhost',
-            'name' => 'uip_preboarding_offboarding',
+            'name' => 'orientation_form_database',
             'user' => 'root',
             'pass' => '',
             'port' => '3306',

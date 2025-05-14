@@ -8,21 +8,19 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class PreboardingAttendance extends Model
 {
-    protected $table = "preboarding_attendance";
+    protected $table = "orientation_form_table";
     protected $primaryKey = "app_id";
     public $timestamps = false;
 
     protected $fillable = [
         'name', 
         'email_address', 
-        'intern_type', 
         'phone_number', 
         'facebook_link', 
         'course',
         'school_name',
         'school_contact',
         'hours_requirement',
-        'discord_username',
         'orientation_date',
         'start_date',
         'end_date',

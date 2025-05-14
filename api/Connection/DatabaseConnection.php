@@ -13,7 +13,7 @@ class DatabaseConnection {
         $capsule->addConnection([
             'driver' => 'mysql',
             'host' => 'localhost',
-            'database' => 'uip_preboarding_offboarding',
+            'database' => 'orientation_form_database',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
